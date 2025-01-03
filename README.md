@@ -36,3 +36,14 @@ Graph visualization:
 ![alt text](netflow_01.png)
 
 Optimization of the network flow: increase capacity of the warehouses 1, 2, 3, 4 according to the unused network capacities.
+
+## Task 2
+
+Script is available in the file [02.py](./02.py)
+
+Results shows OOBTree advantages over the standard Python dictionary.
+
+```bash
+Total range_query time for OOBTree: 0.000303 seconds
+Total range_query time for Dict: 0.505502 seconds
+```
