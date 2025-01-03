@@ -32,7 +32,7 @@ Unused network capacities:
 Склад 4 -> Магазин 14: 10
 ```
 
-Graph wisualization:
+Graph visualization:
 ![alt text](netflow_01.png)
 
 Optimization of the network flow: increase capacity of the warehouses 1, 2, 3, 4 according to the unused network capacities.

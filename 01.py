@@ -73,7 +73,11 @@ def calculate_max_flow(graph, source, sink):
     Returns:
         Максимальний потік та шляхи використання
     """
-    flow_value, flow_dict = nx.maximum_flow(graph, source, sink)
+
+    # Використання алгоритму Едмондса-Карпа для обчислення максимального потоку
+    flow_value, flow_dict = nx.maximum_flow(
+        graph, source, sink, flow_func=nx.algorithms.flow.edmonds_karp
+    )
     return flow_value, flow_dict
 
 
